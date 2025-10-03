@@ -1,3 +1,7 @@
+:root {
+    --fav-color: #4169e1; /* Royal Blue */
+}
+
 body {
     background: #f5f5fa;
     color: #1f1f29;
@@ -8,5 +12,14 @@ body {
     margin: auto;
     background-color: white;
     border: 1px solid black;
+    padding: 20px;
 }
 
+.name {
+    font-weight: bold;
+}
+
+.fav {
+    color: var(--fav-color);
+    font-style: italic;
+}
